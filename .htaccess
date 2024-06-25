@@ -1,0 +1,13 @@
+ErrorDocument 404 http://localhost/proyectos/22-4.10-proyectos/Dasomnya/controllers/404.php
+ErrorDocument 403 http://localhost/proyectos/22-4.10-proyectos/Dasomnya/controllers/403.php
+ErrorDocument 405 http://localhost/proyectos/22-4.10-proyectos/Dasomnya/controllers/405.php
+ErrorDocument 500 http://localhost/proyectos/22-4.10-proyectos/Dasomnya/controllers/500.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+
+## RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+## RewriteRule ^ /%1 [R=301,NE,L]
+

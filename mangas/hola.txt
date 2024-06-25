@@ -1,0 +1,19 @@
+tamaño de imagenes
+
+1012 X 1600
+
+INSERT INTO `manga` (`ID`, `title`, `description`, `uploadDate`, `User_ID`, `Ages_ID`, `suscriptions_ID`, `desactivation_date`, `caratula`) VALUES ('10000', 'OnePiece', 'Luffy se embarca en un viaje para buscar el gran tesoro que Roger dejó antes de morir. Dicho tesoro, el llamado \'One Piece\', ha sido buscado por una cantidad inimaginable de personas desde la muerte del Rey de los Piratas.', '0000-00-00 00:00:00', '20000', '2', '1', NULL)
+
+INSERT INTO `manga` (`ID`, `title`, `description`, `uploadDate`, `User_ID`, `Ages_ID`, `suscriptions_ID`, `desactivation_date`, `caratula`) VALUES ('10001', 'Tokyo Ravengers', 'Un día como otro cualquiera en su rutina monótona, Takemichi Hanagaki ve en las noticias que su novia del instituto ha perdido la vida en un accidente. A partir de ese momento, Takemichi sufre un acontecimiento que le hará volver atrás en el tiempo, siendo una segunda oportunidad para remediar todo lo que desencadenará el accidente en el futuro y evitar la muerte de su, en ese momento (en el pasado), pareja.', '2022-08-23 06:57:26', '20060', '4', '3', NULL)
+
+INSERT INTO `manga` (`ID`, `title`, `description`, `uploadDate`, `User_ID`, `Ages_ID`, `suscriptions_ID`, `desactivation_date`, `caratula`) VALUES ('10002', 'Naruto', 'La historia de un ninja huérfano adolescente llamado Naruto Uzumaki, cuyos padres murieron en el ataque del Zorro Demonio de Nueve Colas, y quien aspira a convertirse en Hokage (líder de su aldea) con el propósito de ser reconocido como alguien importante dentro de la aldea y entre sus compañeros.\r\n', '2022-07-12 00:00:00', '20001', '3', '3', NULL)
+
+INSERT INTO `manga` (`ID`, `title`, `description`, `uploadDate`, `User_ID`, `Ages_ID`, `suscriptions_ID`, `desactivation_date`, `caratula`) VALUES ('10003', 'HAIKYU!!', 'En el voleibol, como en el baloncesto, la altura es clave para poder ser parte de un equipo y apuntar alto. Pero Shoyo Hinata no cuenta con esa cualidad. Sin embargo, eso no será impedimento para seguir luchando día a día para llegar a ser como aquel jugador que vio cuando estaba en primaria: El Pequeño Gigante.', '2022-08-23 06:57:26', '20060', '2', '3', NULL)
+
+
+1. clonar prueba
+2.subir un archivo txt con tu apelldio en minusucla
+3.subir ese archivo al servidor branch main 
+4. con branch main origen crear una nueva rama con mi apellido
+asegurandote que esats en esa rama borrar todos los archivos menos el tuyo pushear esa rama al servidor
+POSICIONARSE EN MAINY HACER UN MERGE Y SUBIR TODO AL SERVIDOR
